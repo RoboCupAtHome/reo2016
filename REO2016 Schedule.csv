@@ -2,24 +2,24 @@
 ,30-3-2016,31-3-2016,1-4-2016,2-4-2016,3-4-2016
 08:00,,,,,
 08:30,,,,,
-09:00,,,Speech recog,Follow & Guide,
-09:30,,,Speech recog,Follow & Guide,
-10:00,,RIPS,Speech recog,,
-10:30,,,,,
-11:00,,,,Open,
-11:30,,,,Open,
-12:00,,Person Recog,Navigation,,Finals
-12:30,,Person Recog,Navigation,,Finals
-13:00,,Person Recog,Navigation,EEGPSR,Finals
-13:30,,,,EEGPSR,
-14:00,,,,EEGPSR,
-14:30,,,,EEGPSR,
-15:00,,,,,
+09:00,,,,,
+09:30,,,,,
+10:00,,RIPS,Speech recog,Follow & Guide,
+10:30,,,Speech recog,Follow & Guide,
+11:00,,,Speech recog,,
+11:30,,,,,
+12:00,,Person Recog,,Open,Finals
+12:30,,Person Recog,,Open,Finals
+13:00,,Person Recog,Navigation,,Finals
+13:30,,,Navigation,,
+14:00,,,Navigation,Restaurant,
+14:30,,,,Restaurant,
+15:00,,,,Restaurant,
 15:30,,,,,
-16:00,,Manip + obj,GPSR,Restaurant,
-16:30,,Manip + obj,GPSR,Restaurant,
-17:00,,,GPSR,Restaurant,
-17:30,,,,,
+16:00,,Manip + obj,GPSR,EEGPSR,
+16:30,,Manip + obj,GPSR,EEGPSR,
+17:00,,,GPSR,EEGPSR,
+17:30,,,,EEGPSR,
 18:00,,,,,
 18:30,,,,,
 19:00,,,,,
