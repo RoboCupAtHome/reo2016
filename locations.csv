@@ -1,0 +1,15 @@
+Name,Location category,Associated object category,Manipulation
+closet,shelf,cleaning_stuff,yes
+nightstand,table,,yes
+bed,seat,,yes
+fridge,appliance,,no
+kitchen trashbin,bin,,only putting
+kitchencounter,table,Food (left of sink) & Drinks (right of sink),yes
+sink,appliance,,only putting
+hallway trashbin,bin,,only putting
+sideboard,shelf,candy,yes
+dinnerchairs,seat,,yes
+dinnertable,table,containers,yes
+bookcase,shelf,,yes
+couch,seat,,yes
+Tv-stand,shelf,,yes
