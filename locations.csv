@@ -8,7 +8,7 @@ kitchencounter,table,Food (left of sink) & Drinks (right of sink),yes
 sink,appliance,,only putting
 hallway trashbin,bin,,only putting
 sideboard,shelf,candy,yes
-dinnerchairs,seat,,yes
+dinnerchairs,seat,,no
 dinnertable,table,containers,yes
 bookcase,shelf,,yes
 couch,seat,,yes
