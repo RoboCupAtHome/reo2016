@@ -121,7 +121,7 @@ $target		= the {placement 2})
 ##############################################################################
 $complex	= $goroom, $findobj, and $deliver
 
-$goroom		= $vbgoto the {room}
+$goroom		= $vbgoto the {placement meta: Locate at least three objects there.}
 $findobj	= $vbfind the {kobject}
 
 
