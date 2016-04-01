@@ -1,0 +1,13 @@
+1. find a person in the bedroom and follow them
+	Bedroom should have at least 3 people in it
+	A person must step between robot and human
+2. look for the calling person in the livingroom and tell what day is today
+	Livingroom must have 3+ people
+3. navigate to the livingroom, find the waving person and say what time is it
+4. give an lemon to Mia in the livingroom and follow them
+	A person must step between robot and human
+5. navigate to the kitchen, look for the waving person and answer a question
+	Question: Who is the companion of R2D2?
+	Answer: C-3PO
+6. take the lemon from the kitchen counter and bring it to Mia in the bedroom
+	Put a lemon on the kitchen counter (left of sink)

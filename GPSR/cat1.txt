@@ -1,0 +1,17 @@
+1. go to the closet, find the rice, and bring it to Jacob in the bedroom
+	Locate at least three objects there, including the rice
+2. go to the Tv-stand, find a person, and answer a question
+	Place a person near the TV-Stand
+	Locate at least three objects there.
+	Question: What shape is this building?
+	Answer: UFO
+3. take the pineapple cookies from the bed and bring it to the sideboard
+	Place the pineapple cookies on the bed
+4. find a person in the kitchen and tell what time is it
+	Place a person in the kitchen
+5. look for a person in the bedroom and say what day is today
+	Place a person in the bedroom (sitting on the bed)
+6. look for a person in the livingroom and answer a question
+	Place a person in the living room
+	Question: What are the colours of the Dutch flag?
+	Answer: Red white and blue
