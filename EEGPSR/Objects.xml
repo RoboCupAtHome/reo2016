@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories>
+  <category name="food" defaultLocation="kitchen counter" room="kitchen">
+    <object name="chocolate sprinkles" difficulty="easy" />
+    <object name="macaroni" difficulty="easy" />
+    <object name="rice" difficulty="easy" />
+    <object name="apple" type="alike" difficulty="moderate" />
+    <object name="avocado" type="alike" difficulty="moderate" />
+    <object name="lemon" type="alike" difficulty="moderate" />
+    <object name="paprika" type="alike" difficulty="moderate" />
+  </category>
+  <category name="cleaning stuff" defaultLocation="closet" room="bedroom">
+    <object name="cloth" difficulty="moderate" />
+    <object name="sponge" difficulty="moderate" />
+    <object name="dishwashing soap" difficulty="moderate" />
+    <object name="soap" difficulty="moderate" />
+    <object name="toilet paper" difficulty="high" />
+  </category>
+
+<!--
+  <category name="containers" defaultLocation="dinner table" room="livingroom">
+    <object name="plate" type="container" difficulty="high" />
+    <object name="bowl" type="container" difficulty="high" />
+    <object name="storage box" type="container" difficulty="high" />
+  </category>
+//-->
+
+  <category name="drinks" defaultLocation="kitchen counter" room="kitchen">
+    <object name="kinder coke" difficulty="easy" />
+    <object name="milk" difficulty="easy" />
+    <object name="smoothie" difficulty="easy" />
+    <object name="tea" difficulty="easy" />
+    <object name="water" difficulty="easy" />
+  </category>
+
+  <category name="candy" defaultLocation="sideboard" room="livingroom">
+    <object name="licorice" difficulty="moderate" />
+    <object name="little bananas" difficulty="moderate" />
+    <object name="pineapple cookies" difficulty="easy" />
+    <object name="strawberry cookies" difficulty="easy" />
+    <object name="tuc" difficulty="easy" />
+    <object name="wafer" difficulty="moderate" />
+  </category>
+
+</categories>
