@@ -126,10 +126,12 @@ $complex	= $findprsat and $count {void meta: Question: In which room was the per
 
 ##############################################################################
 #
-# Complex Command: Find calling person and follow
+# Complex Command: Find calling person and talk or follow
 # 
 ##############################################################################
 $complex	= $fndclprsat and $follow {void meta: Question: In which room is now the person you followed?}
+$complex	= $fndclprsat and $talk
+$complex	= $findprsat and $talk
 
 $findprs	= $vbfind a person
 $fndclprs	= $vbfind the waving person 
@@ -166,7 +168,7 @@ $goroom		= $vbgoto the {room 1}
 # Simple Command: Talk to person
 # 
 ##############################################################################
-$talk		= $tell | answer a {question}
+$talk		= $tell | answer a question
 $tell		= $vbspeak ($time | $date | $name)
 $name		= your name
 $name		= the name of your team
