@@ -1,0 +1,8 @@
+1. Bring a food to the sideboard
+	Robot should ask which food (lemon, apple, avocado or paprika).
+2. Follow the waving person in the living room
+	Person should guide to the kitchen.
+	The person faints before leaving the livingroom.
+3. Go to the bedroom, find the person and answer the question
+	If the robot completed command 1: Where is the <food>?
+	If the robot failed command 1: Where was the waving person?
