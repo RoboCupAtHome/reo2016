@@ -1,0 +1,55 @@
+This are recorded Datafiles from the European Open 2016 (@home)
+from team homer@uniKoblenz, from the game
+GPSR / EEGPSR
+
+The recorded Topics are:
+
+topics:       /audio                                 : audio_common_msgs/AudioData *   
+              /command                               : std_msgs/String 
+                  This contains the entries from /recognized_speech which
+                  have been confirmed as valid commands by the operator              
+              /debug/detect_obj/rgb                  : sensor_msgs/Image               
+              /debug/rec_obj/rgb                     : sensor_msgs/Image               
+                  detect_obj is the recorded image just before recognition
+                  rec_obj    are the actually recognized objects 
+              /emergency_button_pressed              : std_msgs/Bool
+                  periodically transmitted while the emergency stop is down                        
+              /gripping/finished_gripping            : homer_gripping/GrippingFinished 
+              /gripping/grip_object                  : homer_gripping/GripObject       
+                  grip_object:       The object to pick up, recognized before
+                  finished_gripping: The arm moves to transport configuration
+              /front_scan                            : sensor_msgs/LaserScan
+                  Front scan. Scanner is mounted ~10 cm above ground, front and center    
+              /homer_mapping/slam_map                : nav_msgs/OccupancyGrid        
+              /homer_navigation/navigate_to_POI      : mapnav_msgs/NavigateToPOI      
+                  POI are the rooms or furniture the robot will navigate to next
+              /homer_navigation/path                 : nav_msgs/Path                 
+              /homer_navigation/stop_navigation      : std_msgs/Empty                
+              /homer_navigation/target_reached       : std_msgs/String                
+              /homer_navigation/target_unreachable   : mapnav_msgs/TargetUnreachable 
+                  target_reached / unreachable signals end of current navigation
+              /or/obj_names                          : or_msgs/OrObjectNames         
+                  Names of objects the robot has learned and may detect later
+              /personVisualization/body              : visualization_msgs/MarkerArray 
+              /personVisualization/hand              : visualization_msgs/MarkerArray 
+              /personVisualization/head              : visualization_msgs/MarkerArray 
+                  These topics are only published while looking for calling persons
+              /pose                                  : geometry_msgs/PoseStamped     
+              /recognized_speech                     : std_msgs/String               
+                  All Sentences recognized by ASR, even if in wrong state
+              /robot_face/text_out                   : std_msgs/String 
+                  All Answers to the operator given by the robot
+              /rosout                                : rosgraph_msgs/Log  
+              /scan                                  : sensor_msgs/LaserScan         
+                  Front scan. Scanner is mounted ~30 cm above ground, front and center
+              /start_game                            : std_msgs/Empty                
+                  Included so that you can quickly skip to door opening
+              /tf                                    : tf2_msgs/TFMessage
+                  e.g /map, /base_link, /ptu_plate, /gripper_origin
+              /upper_body_detection                  : message types from strands
+
+ * use "roslaunch audio_play play.launch"  (from audio_common) to feed the audio data to the speakers during
+    plaback of the bag
+
+There is a rviz configuration file included for easy visualization of the
+recorded data
