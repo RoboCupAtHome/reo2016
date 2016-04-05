@@ -1,0 +1,29 @@
+gpsr_2016-04-01-16-10-33 (Attempt 1):
+Command at 1 min, 30 seconds
+ (LOOK FOR A CALLING PERSON IN THE LIVINGROOM AND TELL WHAT DAY IS TODAY)
+Ref calls out inresponsive robot at 4 min, 40 seconds
+Attempt is cancelled at 7 min
+
+gpsr_2016-04-01-16-24-55 (Attempt 2):
+
+Game starts at   1 min, 40 seconds
+First Command at 2 min
+ (GET THE LEMON TO THE LIVINGROOM AND FOLLOW ME)
+Second Try    at 2 min, 30 seconds
+ (GET THE LEMON TO THE LIVINGROOM AND FOLLOW ME)
+Continue (QR) at 3 min, 11 seconds
+ (GIVE AN LEMON TO MIA IN THE LIVINGROOM AND FOLLOW THEM)
+Cancel        at 4 min, 10 seconds
+
+gpsr_2016-04-01-16-35-51
+Game starts at   0 min, 35 seconds
+First Command at 1 min, 25 seconds
+ (TAKE THE LEMON FROM THE KITCHEN COUNTER AND BRING IT TO ME)
+Second Try    at 1 min, 40 seconds
+(TAKE THE LEMON FROM THE KITCHEN COUNTER AND BRING IT TO LIAM IN THE BEDROOM)
+Third Try     at 2 min, 00 seconds
+(TAKE THE LEMON FROM THE KITCHEN COUNTER BRING IT TO ME AND GET THE MACARONI)
+Continue (QR) at 2 min, 30 seconds
+(TAKE THE LEMON FROM THE KITCHEN COUNTER AND BRING IT TO MIA IN THE BEDROOM)
+Emergency Stop   4 min, 50 seconds
+
