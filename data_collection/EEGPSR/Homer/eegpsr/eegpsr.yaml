@@ -1,0 +1,226 @@
+image: eegpsr_SLAM.pgm
+mask_image: eegpsr_mask.pgm
+resolution: 0.050000
+origin: [-22.525000, -22.525000, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.195
+
+pois:
+ - name: KITCHEN
+   type: 100
+   x: 5
+   y: 1.2
+   theta: 2.8291
+   remarks: added from semantic knowledge base
+ - name: KITCHEN_COUNTER
+   type: 100
+   x: 5.15
+   y: 1.75
+   theta: -0.0665682
+   remarks: added from semantic knowledge base
+ - name: KITCHEN COUNTER
+   type: 100
+   x: 5.15
+   y: 1.75
+   theta: -0.0665682
+   remarks: added from semantic knowledge base
+ - name: LOOKCOUNTERLEFT
+   type: 100
+   x: 5.3
+   y: 3.8
+   theta: -0.135528
+   remarks: added from semantic knowledge base
+ - name: LOOKCOUNTERMIDDLE
+   type: 100
+   x: 5.25
+   y: 3.15
+   theta: -0.0964738
+   remarks: added from semantic knowledge base
+ - name: KITCHEN_TRASHBIN
+   type: 100
+   x: 5.4
+   y: 3.85
+   theta: 1.25875
+   remarks: added from semantic knowledge base
+ - name: KITCHEN TRASHBIN
+   type: 100
+   x: 5.4
+   y: 3.85
+   theta: 1.25875
+   remarks: added from semantic knowledge base
+ - name: SINK
+   type: 100
+   x: 5.2
+   y: 2.45
+   theta: -0.0756131
+   remarks: added from semantic knowledge base
+ - name: FRIDGE
+   type: 100
+   x: 4.95
+   y: 3.5
+   theta: 2.26174
+   remarks: added from semantic knowledge base
+ - name: BEDROOM
+   type: 100
+   x: 2.7
+   y: 0.400001
+   theta: 2.66552
+   remarks: added from semantic knowledge base
+ - name: BED
+   type: 100
+   x: 2.95
+   y: 1.45
+   theta: 1.51679
+   remarks: added from semantic knowledge base
+ - name: LOOKBEDRIGHT
+   type: 100
+   x: 3.6
+   y: 1.35
+   theta: 1.36984
+   remarks: added from semantic knowledge base
+ - name: NIGHTSTAND
+   type: 100
+   x: 2.3
+   y: 2.2
+   theta: 1.61077
+   remarks: added from semantic knowledge base
+ - name: CLOSET
+   type: 100
+   x: 2.2
+   y: 0.75
+   theta: 2.69499
+   remarks: added from semantic knowledge base
+ - name: LOOKCLOSETRIGHT
+   type: 100
+   x: 2.4
+   y: 1.2
+   theta: 2.7561
+   remarks: added from semantic knowledge base
+ - name: LIVINGROOM
+   type: 100
+   x: 2.75
+   y: -2.6
+   theta: -2.44685
+   remarks: added from semantic knowledge base
+ - name: TV_STAND
+   type: 100
+   x: 3.3
+   y: -2.5
+   theta: 1.55458
+   remarks: added from semantic knowledge base
+ - name: TV STAND
+   type: 100
+   x: 3.3
+   y: -2.5
+   theta: 1.55458
+   remarks: added from semantic knowledge base
+ - name: LOOKSTANDRIGHT
+   type: 100
+   x: 4.4
+   y: -2.45
+   theta: 1.46311
+   remarks: added from semantic knowledge base
+ - name: SIDEBOARD
+   type: 100
+   x: 5.1
+   y: -2.85
+   theta: 0
+   remarks: added from semantic knowledge base
+ - name: LOOKSIDEBOARDRIGHT
+   type: 100
+   x: 4.95
+   y: -3.95
+   theta: -0.0249948
+   remarks: added from semantic knowledge base
+ - name: COUCH
+   type: 100
+   x: 4.05
+   y: -2.5
+   theta: -1.64958
+   remarks: added from semantic knowledge base
+ - name: LOOKCOUCHRIGHT
+   type: 100
+   x: 3.4
+   y: -2.5
+   theta: -1.59131
+   remarks: added from semantic knowledge base
+ - name: BOOKCASE
+   type: 100
+   x: 2.15
+   y: -4.4
+   theta: -2.38649
+   remarks: added from semantic knowledge base
+ - name: DINNERTABLE
+   type: 100
+   x: 3.1
+   y: -5.35
+   theta: -0.0249948
+   remarks: added from semantic knowledge base
+ - name: HALLWAY
+   type: 100
+   x: 5.5
+   y: 0.0500007
+   theta: -2.63601
+   remarks: added from semantic knowledge base
+ - name: HALLWAY_TRASHBIN
+   type: 100
+   x: 5.4
+   y: 0.2
+   theta: 0.932913
+   remarks: added from semantic knowledge base
+ - name: HALLWAY TRASHBIN
+   type: 100
+   x: 5.4
+   y: 0.2
+   theta: 0.932913
+   remarks: added from semantic knowledge base
+ - name: YOU
+   type: 100
+   x: 2.55
+   y: -0.399999
+   theta: 2.01223
+   remarks: added from semantic knowledge base
+ - name: ME
+   type: 100
+   x: 2.7
+   y: -0.0499993
+   theta: 2.26174
+   remarks: added from semantic knowledge base
+ - name: DOORA
+   type: 100
+   x: 0.2
+   y: -0.15
+   theta: 3.11779
+   remarks: added from semantic knowledge base
+ - name: DOORB
+   type: 100
+   x: 0.0500003
+   y: -2.3
+   theta: -3.04434
+   remarks: added from semantic knowledge base
+ - name: INITIAL
+   type: 100
+   x: 1.25
+   y: -2.45
+   theta: 1.673
+   remarks: added from semantic knowledge base
+ - name: EXIT
+   type: 100
+   x: -0.15
+   y: -2.1
+   theta: -3.07917
+   remarks: added from semantic knowledge base
+ - name: ENTRANCE
+   type: 100
+   x: 1.9
+   y: -0.149999
+   theta: -3.11887
+   remarks: 
+ - name: person
+   type: 100
+   x: 5.55994
+   y: -1.02049
+   theta: -0.949967
+   remarks: 
+
