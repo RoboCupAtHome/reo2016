@@ -1,0 +1,16 @@
+image: following_guiding_SLAM.pgm
+mask_image: following_guiding_mask.pgm
+resolution: 0.050000
+origin: [-35.025002, -35.025002, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.195
+
+pois:
+ - name: start
+   type: 100
+   x: 0.495554
+   y: 1.00588
+   theta: -0.855626
+   remarks: 
+
